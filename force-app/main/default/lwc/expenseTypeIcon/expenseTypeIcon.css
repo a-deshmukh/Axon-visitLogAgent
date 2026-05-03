@@ -1,0 +1,53 @@
+.icon-wrap {
+    display: inline-flex;
+    width: 2.25rem;
+    height: 2.25rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.line {
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.4;
+}
+
+.transportation {
+    background: #eaf5f1;
+    color: #0b6b50;
+}
+
+.accommodation {
+    background: #eef4ff;
+    color: #0b5cab;
+}
+
+.meals {
+    background: #fff3e0;
+    color: #8a4b00;
+}
+
+.incidental {
+    background: #f1efff;
+    color: #5941a9;
+}
+
+.other {
+    background: #f3f3f3;
+    color: #444444;
+}
+
+@media (min-width: 48rem) {
+    .icon-wrap {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
